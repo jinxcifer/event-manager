@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es6",
+    "jsx": "react",
+    "module": "commonjs",
+    "outDir": "build",
+    "rootDirs": ["src", "test"],
+    "types": ["jest", "reflect-metadata"],
+    "paths": {
+      "@app/*": ["src/*"],
+      "@test/*": ["test/*"]
+    },
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "include": ["src/**/*", "test/**/*"],
+  "exclude": ["node_modules"]
+}
