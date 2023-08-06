@@ -1,4 +1,7 @@
 const path = require('path');
+const dotenv = require('dotenv');
+
+dotenv.config();
 
 module.exports = (env, argv) => ({
   extends: path.resolve(__dirname, './webpack.config.base.js'),
