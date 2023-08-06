@@ -39,7 +39,7 @@ Fill out the environment variables:
 ```
 NODE_ENV=development
 BACKEND_PORT=3000
-BACKEND_ORIGIN=http://localhost:8080
+BACKEND_ORIGIN=http://localhost:4000
 DATABASE_USERNAME=postgres
 DATABASE_PASSWORD=postgres
 DATABASE_HOST=postgres
