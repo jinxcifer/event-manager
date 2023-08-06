@@ -2,7 +2,11 @@ version: '3'
 
 services:
   frontend:
-    build: .
+    build:
+      context: .
+      args:
+        NODE_ENV: '${NODE_ENV}'
+        BACKEND_URL: '${BACKEND_URL}'
     image: birthday/frontend
     container_name: frontend
     restart: always
